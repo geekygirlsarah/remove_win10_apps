@@ -1,5 +1,5 @@
 # Uninstall 3D Builder:
-Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+Get-AppxPackage Microsoft.3DBuilder | Remove-AppxPackage
 
 # Uninstall Alarms and Clock:
 Get-AppxPackage Microsoft.WindowsAlarms | Remove-AppxPackage
@@ -11,10 +11,13 @@ Get-AppxPackage Microsoft.WindowsAlarms | Remove-AppxPackage
 Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage
 
 # Uninstall Camera:
-#Get-AppxPackage *windowscamera* | Remove-AppxPackage
+#Get-AppxPackage Microsoft.WindowsCamera | Remove-AppxPackage
+
+# Uninstall Food & Drink:
+Get-AppxPackage Microsoft.BingFoodAndDrink | Remove-AppxPackage
 
 # Uninstall Get Office:
-Get-AppxPackage *officehub* | Remove-AppxPackage
+Get-AppxPackage Microsoft.MicrosoftOfficeHub | Remove-AppxPackage
 
 # Uninstall Get Skype:
 Get-AppxPackage *skypeapp* | Remove-AppxPackage
@@ -24,6 +27,10 @@ Get-AppxPackage Microsoft.Getstarted | Remove-AppxPackage
 
 # Uninstall Groove Music:
 Get-AppxPackage Microsoft.WindowsZuneMusic | Remove-AppxPackage
+Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage
+
+# Uninstall Health:
+Get-AppxPackage Microsoft.BingHealthAndFitness | Remove-AppxPackage
 
 # Uninstall Maps:
 Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
@@ -32,19 +39,22 @@ Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
 Get-AppxPackage *messaging* | Remove-AppxPackage
 
 # Uninstall Microsoft Solitaire Collection:
-#Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+#Get-AppxPackage Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage
 
 # Uninstall Money:
-Get-AppxPackage *bingfinance* | Remove-AppxPackage
+Get-AppxPackage Microsoft.BingFinance | Remove-AppxPackage
 
 # Uninstall Movies & TV:
 Get-AppxPackage Microsoft.WindowsZuneVideo | Remove-AppxPackage
 
 # Uninstall News:
-Get-AppxPackage *bingnews* | Remove-AppxPackage
+Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage
 
 # Uninstall OneNote:
 Get-AppxPackage Microsoft.Office.OneNote | Remove-AppxPackage
+
+# Uninstall Paid Wi-Fi & Cellular
+Get-AppxPackage Microsoft.OneConnect | Remove-AppxPackage
 
 # Uninstall People:
 Get-AppxPackage Microsoft.People | Remove-AppxPackage
@@ -59,7 +69,10 @@ Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
 #Get-AppxPackage Microsoft.WindowsStore | Remove-AppxPackage
 
 # Uninstall Sports:
-Get-AppxPackage *bingsports* | Remove-AppxPackage
+Get-AppxPackage Microsoft.BingSports | Remove-AppxPackage
+
+# Uninstall Sway:
+Get-AppxPackage Microsoft.Office.Sway | Remove-AppxPackage
 
 # Uninstall Voice Recorder:
 #Get-AppxPackage Microsoft.SoundRecorder | Remove-AppxPackage
@@ -72,3 +85,9 @@ Get-AppxPackage Microsoft.XboxApp | Remove-AppxPackage
 
 # Uninstall Candy Crush:
 Get-AppxPackage king.com.CandyCrushSodaSaga | Remove-AppxPackage
+
+# Uninstall Facebook:
+Get-AppxPackage *facebook* | Remove-AppxPackage
+
+# Uninstall Twitter:
+Get-AppxPackage *twitter* | Remove-AppxPackage
