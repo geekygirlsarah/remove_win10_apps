@@ -69,3 +69,6 @@ Get-AppxPackage *bingsports* | Remove-AppxPackage
 
 # Uninstall Xbox:
 Get-AppxPackage Microsoft.XboxApp | Remove-AppxPackage
+
+# Uninstall Candy Crush:
+Get-AppxPackage king.com.CandyCrushSodaSaga | Remove-AppxPackage
