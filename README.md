@@ -8,7 +8,8 @@ ability to remove them.
 
 ## Apps Removed
 
-These apps are capable of being removed by this script. If it has `(disabled)` by it, it's in the script but commented out, so it won't be removed by default.
+These apps are capable of being removed by this script. If it has `(disabled)` 
+by it, it's in the script but commented out, so it won't be removed by default.
 
 - 3D Builder
 - Alarms
@@ -48,22 +49,24 @@ These apps are capable of being removed by this script. If it has `(disabled)` b
 ## Instructions (Uninstall)
 
 1. Get the uninstall script in this repo.
-2. Double-click on it.
-3. It will give a warning about an execute policy. This is a safety warning to 
-  ensure you know what you're running. Press Y and Enter.
-4. It should remove all built-in apps.
+2. Open a Command Prompt or PowerShell window as administrator. (Right-click 
+   on the icon, click Run as Administrator)
+3. Type: `PowerShell.exe -ExecutionPolicy RemoteSigned` (which enables scripts
+   to run locally)
+4. Change to the director of the script
+5. Run `.\Uninstall_Win10_Apps.ps1`
+6. Watch as it removes those apps and your Start Menu frees up
 
-If it won't let you run it because of the execute policy, try running:
-`PowerShell.exe -ExecutionPolicy RemoteSigned`. If that also doesn't work, try 
-opening the script up, typing an extra space somewhere, then saving it. This tells
-it it's a script created on your computer. 
+If it won't let you run it because of the execute policy, try opening the 
+script up, typing an extra space somewhere, then saving it. This tells it 
+it's a script created on your computer, and makes it happier.
 
-There are a couple more apps commented out (like Store and Calculator) that 
-I left in there. Remove the # in front of the lines to remove them too.
+There are a couple more apps commented out (like Store and Calculator) that I 
+left in there. Remove the # in front of the lines to remove them too.
 
 ## Instructions (Reinstall)
 
-If you change your mind, follow the above steps, but replace step 1 with the
+If you change your mind, follow the above steps, but replace step 1 with the 
 reinstall script in this repo.
 
 ## Contact
