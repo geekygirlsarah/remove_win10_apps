@@ -28,6 +28,9 @@ Get-AppxPackage *zunemusic* | Remove-AppxPackage
 # Uninstall Maps:
 Get-AppxPackage *windowsmaps* | Remove-AppxPackage
 
+# Uninstall Messaging:
+Get-AppxPackage *messaging* | Remove-AppxPackage
+
 # Uninstall Microsoft Solitaire Collection:
 #Get-AppxPackage *solitairecollection* | Remove-AppxPackage
 
