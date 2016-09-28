@@ -2,13 +2,13 @@
 Get-AppxPackage *3dbuilder* | Remove-AppxPackage
 
 # Uninstall Alarms and Clock:
-Get-AppxPackage *windowsalarms* | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsAlarms | Remove-AppxPackage
 
 # Uninstall Calculator:
-#Get-AppxPackage *windowscalculator* | Remove-AppxPackage
+#Get-AppxPackage Microsoft.WindowsCalculator | Remove-AppxPackage
 
 # Uninstall Calendar and Mail:
-Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
+Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage
 
 # Uninstall Camera:
 #Get-AppxPackage *windowscamera* | Remove-AppxPackage
@@ -20,13 +20,13 @@ Get-AppxPackage *officehub* | Remove-AppxPackage
 Get-AppxPackage *skypeapp* | Remove-AppxPackage
 
 # Uninstall Get Started:
-Get-AppxPackage *getstarted* | Remove-AppxPackage
+Get-AppxPackage Microsoft.Getstarted | Remove-AppxPackage
 
 # Uninstall Groove Music:
-Get-AppxPackage *zunemusic* | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsZuneMusic | Remove-AppxPackage
 
 # Uninstall Maps:
-Get-AppxPackage *windowsmaps* | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
 
 # Uninstall Messaging:
 Get-AppxPackage *messaging* | Remove-AppxPackage
@@ -38,34 +38,34 @@ Get-AppxPackage *messaging* | Remove-AppxPackage
 Get-AppxPackage *bingfinance* | Remove-AppxPackage
 
 # Uninstall Movies & TV:
-Get-AppxPackage *zunevideo* | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsZuneVideo | Remove-AppxPackage
 
 # Uninstall News:
 Get-AppxPackage *bingnews* | Remove-AppxPackage
 
 # Uninstall OneNote:
-Get-AppxPackage *onenote* | Remove-AppxPackage
+Get-AppxPackage Microsoft.Office.OneNote | Remove-AppxPackage
 
 # Uninstall People:
-Get-AppxPackage *people* | Remove-AppxPackage
+Get-AppxPackage Microsoft.People | Remove-AppxPackage
 
 # Uninstall Phone Companion:
-Get-AppxPackage *windowsphone* | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsPhone | Remove-AppxPackage
 
 # Uninstall Photos:
-Get-AppxPackage *photos* | Remove-AppxPackage
+Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
 
 # Uninstall Store:
-#Get-AppxPackage *windowsstore* | Remove-AppxPackage
+#Get-AppxPackage Microsoft.WindowsStore | Remove-AppxPackage
 
 # Uninstall Sports:
 Get-AppxPackage *bingsports* | Remove-AppxPackage
 
 # Uninstall Voice Recorder:
-#Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+#Get-AppxPackage Microsoft.SoundRecorder | Remove-AppxPackage
 
 # Uninstall Weather:
-#Get-AppxPackage *bingweather* | Remove-AppxPackage
+#Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
 
 # Uninstall Xbox:
-Get-AppxPackage *xboxapp* | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxApp | Remove-AppxPackage
