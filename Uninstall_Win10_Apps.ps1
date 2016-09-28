@@ -65,6 +65,9 @@ Get-AppxPackage Microsoft.WindowsPhone | Remove-AppxPackage
 # Uninstall Photos:
 Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
 
+# Uninstall Reader:
+Get-AppxPackage Microsoft.Reader | Remove-AppxPackage
+
 # Uninstall Store:
 #Get-AppxPackage Microsoft.WindowsStore | Remove-AppxPackage
 
@@ -73,6 +76,9 @@ Get-AppxPackage Microsoft.BingSports | Remove-AppxPackage
 
 # Uninstall Sway:
 Get-AppxPackage Microsoft.Office.Sway | Remove-AppxPackage
+
+# Uninstall Travel:
+Get-AppxPackage Microsoft.BingTravel | Remove-AppxPackage
 
 # Uninstall Voice Recorder:
 #Get-AppxPackage Microsoft.SoundRecorder | Remove-AppxPackage
