@@ -6,46 +6,6 @@ The built-in apps with Windows 10, like Windows Mail, Maps, and Xbox, are
 installed with the OS. You have no option to remove them. You still have the 
 ability to remove them.
 
-## Apps Removed
-
-These apps are capable of being removed by this script. If it has `(disabled)` 
-by it, it's in the script but commented out, so it won't be removed by default.
-
-- 3D Builder
-- Alarms
-- Calendar
-- Clock
-- Food & Drink
-- Camera (disabled)
-- Candy Crush
-- Facebook
-- Get Office
-- Get Skype
-- Get Started
-- Groove Music
-- Health
-- Mail
-- Maps
-- Messaging
-- Microsoft Solitaire Collection
-- Money
-- Movies & TV
-- News
-- OneNote
-- Paid Wi-Fi & Cellular
-- People
-- Phone Companion
-- Photos
-- Reader
-- Sports
-- Store (disabled)
-- Sway
-- Travel
-- Twitter
-- Voice Recorder
-- Weather (disabled)
-- Xbox
-
 ## Instructions (Uninstall)
 
 1. Get the uninstall script in this repo.
